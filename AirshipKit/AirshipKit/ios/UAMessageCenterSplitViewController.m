@@ -20,7 +20,9 @@
 
 @end
 
-@implementation UAMessageCenterSplitViewController
+@implementation UAMessageCenterSplitViewController {
+    UAMessageCenterStyle * _style;
+}
 
 - (void)configure {
 
